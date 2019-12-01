@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context=".SubmitProblemActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/et_varsity_id"
+            android:hint="Enter your varsity id"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/room_no_id"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Problem Category"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <RadioGroup
+            android:weightSum="15"
+            android:id="@+id/radioGroup_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:textSize="12sp"
+                android:layout_weight="3"
+                android:id="@+id/ac_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="AC"
+                />
+            <RadioButton
+                android:layout_weight="3"
+                android:textSize="12sp"
+                android:id="@+id/pc_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PC"
+                />
+            <RadioButton
+                android:layout_weight="3"
+                android:textSize="12sp"
+                android:id="@+id/projector_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Projector"
+                />
+            <RadioButton
+                android:layout_weight="3"
+                android:textSize="12sp"
+                android:id="@+id/fan_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Fan"/>
+            <RadioButton
+                android:layout_weight="3"
+                android:textSize="12sp"
+                android:id="@+id/others_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Others"
+
+                />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/problem_description_id"
+            android:hint="Enter your problem description"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:id="@+id/submit_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Problem"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='SWE_classroom_Problem_&_Solution'

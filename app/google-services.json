@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "804639389613",
+    "firebase_url": "https://swe-classroom-problem.firebaseio.com",
+    "project_id": "swe-classroom-problem",
+    "storage_bucket": "swe-classroom-problem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804639389613:android:988feca3bb1b40493e9324",
+        "android_client_info": {
+          "package_name": "com.example.swe_classroom_problem__solution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804639389613-d3qip5573diqa8gfiv9grphgv5q4cun3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swe_classroom_problem__solution",
+            "certificate_hash": "518ef8e18a1c5900d26488661c79303985f65991"
+          }
+        },
+        {
+          "client_id": "804639389613-8vrn3l843gco5q1al656sla184i3iqrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK-_bD46GqVQoHIomIndOUjrdvJy84OYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804639389613-8vrn3l843gco5q1al656sla184i3iqrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

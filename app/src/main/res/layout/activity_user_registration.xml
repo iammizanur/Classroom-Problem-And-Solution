@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/colorPrimary"
+    tools:context=".UserRegistrationActivity">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etNameEditTextId"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Enter your name"/>
+
+
+
+
+        <EditText
+            android:id="@+id/etEmailEditTextId"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Enter your varsity email"/>
+
+        <EditText
+            android:id="@+id/etPasswordEditTextId"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="Enter Password"/>
+
+        <EditText
+            android:id="@+id/etConfirmPasswordEditTextId"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"/>
+
+        <EditText
+            android:id="@+id/etPhoneEditTextId"
+            android:textAlignment="center"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone number"/>
+
+        <Button
+            android:id="@+id/registrationBtnId"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
